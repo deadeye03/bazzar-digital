@@ -12,8 +12,7 @@ export default function Hero() {
           <span className="bg-gradient-to-r from-cyan-500 via-pink-300 to-pink-500 bg-clip-text ml-2 font-serif">Digital</span>
         </h1>
         <p className="mx-auto max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-          Empowering businesses with cutting-edge software solutions. From AI-driven analytics to seamless cloud
-          integrations, we &apos;re shaping the future of technology.
+          Empowering businesses with cutting-edge software solutions. From AI-driven analytics to seamless Digital Marketing, we &apos;re shaping the future of Business.
         </p>
       </div>
       <div className="flex gap-4">
