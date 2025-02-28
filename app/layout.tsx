@@ -7,10 +7,10 @@ import MouseMoveEffect from "@/components/mouse-move-effect"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Bazzar Digital - Cutting-Edge Software Solutions",
+  title: "Bazaar Digital - Cutting-Edge Software Solutions",
   description: "Empowering businesses with cutting-edge software solutions. From AI-driven analytics to seamless cloud integrations, we're shaping the future of technology.",
-  keywords:[
-    'Bazzar Digital',
+  keywords: [
+    'Bazaar Digital',
     'Software Solutions',
     'Bihar software house',
     'Bihar website developer',
