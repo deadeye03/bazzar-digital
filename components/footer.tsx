@@ -33,12 +33,12 @@ export default function Footer() {
             <h3 className="text-sm font-medium">Company</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <Link href="/about" className="text-muted-foreground transition-colors hover:text-primary">
+                <Link href="#about" className="text-muted-foreground transition-colors hover:text-primary">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/careers" className="text-muted-foreground transition-colors hover:text-primary">
+                <Link href="#" className="text-muted-foreground transition-colors hover:text-primary">
                   Careers
                 </Link>
               </li>
