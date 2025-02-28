@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="relative">
             <Image src="/logo.jpg" alt="Logo" width={100} height={100} />
           </div>
-        <h2 className="font-bold bg-gradient-to-r from-pink-400  to-cyan-500 bg-clip-text text-transparent text-2xl">Bazzar Digital</h2>
+          <h2 className="font-bold bg-gradient-to-r from-pink-400  to-cyan-500 bg-clip-text text-transparent text-2xl">Bazaar Digital</h2>
           <p className="text-sm text-muted-foreground">Empowering businesses with cutting-edge software solutions for the digital age.</p>
         </div>
         <div className="grid flex-1 grid-cols-2 gap-12 sm:grid-cols-3">
@@ -74,7 +74,7 @@ export default function Footer() {
       </div>
       <div className="container border-t py-6">
         <p className="text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Bazzar Digital, Inc. All rights reserved.
+          © {new Date().getFullYear()} Bazaar Digital, Inc. All rights reserved.
         </p>
       </div>
     </footer>

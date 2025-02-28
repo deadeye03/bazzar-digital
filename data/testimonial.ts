@@ -1,7 +1,7 @@
 export const testimonial = [
   {
     quote:
-      "I'm so glad To working with Bazzar Digital. Their software solutions have transformed my business. It's a game-changer!",
+      "I'm so glad To working with Bazaar Digital. Their software solutions have transformed my business. It's a game-changer!",
     author: "Sarah Chen",
     image: "https://randomuser.me/api/portraits/women/75.jpg",
     role: "Software Engineer",
@@ -9,7 +9,7 @@ export const testimonial = [
   },
   {
     quote:
-      "Bazzar Digital's website is a game-changer. It's user-friendly and visually stunning. Highly recommended!",
+      "Bazaar Digital's website is a game-changer. It's user-friendly and visually stunning. Highly recommended!",
     author: "Michael Rodriguez",
     image: "https://randomuser.me/api/portraits/men/75.jpg",
     role: "Product Manager",
