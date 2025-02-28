@@ -24,10 +24,10 @@ export default function About() {
         transition={{ duration: 0.3, ease: "easeOut",  }}
         className='space-y-12'>
           <p className='text-pink-600 font-bold font-mono text-xl text-center'>About Us </p>
-          <h1 className='gradient-title font-bold text-3xl sm:text-4xl md:text-5xl'>
+          <h1 className='gradient-title text-center md:text-left font-bold text-3xl sm:text-4xl md:text-5xl'>
             Why Bazzar Digital is First choice for your Business Growth ?
           </h1>
-          <p className='text-muted-foreground'> Bazzar Digital is the first choice for your business growth because we offer state-of-the-art AI-powered websites, scalable and cost-effective social media marketing, expert SEO consultancy, and tailored digital solutions that drive engagement and measurable results—all with a focus on innovation and efficiency.</p>
+          <p className='text-muted-foreground text-center md:text-left'> Bazzar Digital is the first choice for your business growth because we offer state-of-the-art AI-powered websites, scalable and cost-effective social media marketing, expert SEO consultancy, and tailored digital solutions that drive engagement and measurable results—all with a focus on innovation and efficiency.</p>
           <Button className='bg-gradient-to-r from-primary via-slate-400 to-accent hover:opacity-90 flex items-center gap-4 hover:gap-2 transition-all duration-300' variant='outline' size='lg'>
             <span className=' text-black'>See Our Works</span>
             <ArrowRight className=" h-4 w-4" />
@@ -38,7 +38,7 @@ export default function About() {
         initial={{ opacity: 0, x: 200 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.3, ease: "easeOut",}}
-        className='grid grid-cols-2 gap-4 w-full'>
+        className='grid  grid-cols-1 md:grid-cols-2 gap-4 w-full'>
           {AboutUsCards.map((card, index) => (
             <Card key={index} className='mb-4'>
               <CardHeader>

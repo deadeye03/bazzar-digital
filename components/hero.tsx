@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react"
 
 export default function Hero() {
   return (
-    <section className="container flex min-h-[calc(100vh-3.5rem)] max-w-screen-2xl flex-col items-center justify-center space-y-8 py-24 text-center md:py-32">
+    <section className="container flex min-h-[calc(100vh-3.5rem)] max-w-screen-2xl flex-col items-center justify-center space-y-8 py-12 text-center md:py-28">
       <div className="space-y-4">
         <h1 className="bg-gradient-to-br from-foreground from-30% via-foreground/90 to-foreground/70 bg-clip-text text-3xl font-bold tracking-tight text-transparent sm:text-5xl ">
         Your Growth Partner in a Digital World
@@ -20,7 +20,7 @@ export default function Hero() {
           Explore Solutions
           <ArrowRight className="ml-2 h-4 w-4" />
         </Button>
-        <Button variant="outline" size="lg">
+        <Button variant="outline" size="lg" className="hidden md:block">
           Schedule a Demo
         </Button>
       </div>

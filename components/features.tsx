@@ -16,7 +16,11 @@ import {motion} from "framer-motion"
 
 export default function Features() {
   return (
-    <section id="solutions" className="container space-y-12 py-24 md:py-32 overflow-hidden" >
+    <motion.section
+     initial={{ opacity: 0,y:50 }}
+     whileInView={{ opacity: 1, y: 0 }}
+     transition={{ duration: 0.5,ease: "easeOut" }}
+     id="solutions" className="container space-y-12 py-24 md:py-32 overflow-hidden" >
       <div className="mx-auto max-w-[58rem] text-center">
         <p className="text-center text-pink-600 mb-4 font-bold font-mono text-xl">What the Special</p>
         <h2 className="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-5xl gradient-title">Want to boost your business growth? Solution is here</h2>
@@ -54,7 +58,7 @@ export default function Features() {
           </div>
         ))}
       </motion.div>
-    </section>
+    </motion.section>
   )
 }
 
